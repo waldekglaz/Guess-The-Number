@@ -7,6 +7,8 @@ number_of_guesses_left = 5
 while not(guess == str(number) or number_of_guesses_left == 0):
     number_of_guesses_left -= 1
     guess = input("Guess the number between 0 and 100: ")
+    if guess == "":
+        print("We need a number!")
 
     if guess > str(number):
         print(

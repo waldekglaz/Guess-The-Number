@@ -19,7 +19,7 @@ while not(guess == str(number) or number_of_guesses_left == 0):
     else:
         print("*")
         print(
-            f"Congratulations! The secret number was {number}. You guessed the number is {5+1 - number_of_guesses_left} guesses")
+            f"Congratulations! The secret number was {number}. You guessed the number in {5+1 - number_of_guesses_left} guesses")
         print("*")
     #
 
